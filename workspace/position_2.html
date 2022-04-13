@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <style>
+            #other, #parent, #grand {
+                border: 5px solid tomato;
+            }
+            #grand{
+                position: relative;
+            }
+            #me {
+                background-color: gray;
+                color: white;
+                position: absolute;
+                left: 0px;
+                top: 0px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="other">other</div>
+        <div id="grand">
+            grand
+            <div id="parent">
+                포지션'absolute'라는 엘리먼트가 있을 시에 다른 선택자로부터 STATIC 이외의 엘리먼트가 나올 시, 그 선택자를 기준으로
+                엡솔루트되는 것 같음. 따라서 현재 'grand'안에 'me'가 있는 것임.
+                <div id="me">me</div>
+            </div>
+        </div>
+    </body>
+</html>

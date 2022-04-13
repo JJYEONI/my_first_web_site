@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <style>
+            body {
+                padding-top: 30px;
+            }
+            #other, #parent {
+                border: 5px solid tomato;
+            }
+            #large {
+                background-color: tomato;
+                height: 10000px;
+            }
+            #me {
+                background-color: gray;
+                color: white;
+                position: fixed;
+                text-align: center;
+                left: 0;
+                top: 0;
+                width: 100%;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="other">other</div>
+            <div id="parent">
+                parent
+                <div id="me">회원가입시, 적립금 2000원과 할인쿠폰 증정</div>
+            </div>
+            <div id="large">large</div>
+    </body>
+</html>

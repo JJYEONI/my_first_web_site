@@ -1,0 +1,6 @@
+
+.icon-chat:before { content: '\e800'; } /* '' */
+.icon-folder-open:before { content: '\e801'; } /* '' */
+.icon-chat-empty:before { content: '\f0e6'; } /* '' */
+.icon-folder-open-empty:before { content: '\f115'; } /* '' */
+.icon-twitter-bird:before { content: '\f303'; } /* '' */

@@ -1,0 +1,33 @@
+<html>
+    <body>
+        <script>
+            var star = ['*','**','***','****','*****'];
+            var i = 0;
+            while(i<star.length){
+                document.write(''+star[i]+'<br>');
+                i = i + 1;
+            }
+        </script>
+        <br>
+        <script>
+            var m, n;
+            m = 0;
+            while(m < 5) {
+                n = 0;
+                while(n < m+1) {
+                    document.write("*");
+                    n++;
+                }
+                document.write("<br>");
+                m++;
+            }
+
+            for(var i=0; i<5; i++) {
+                for(var j=0; j<i+1; j++) {
+                    document.write("*");
+                }
+                document.write("<br>");
+            }
+        </script>
+    </body>
+</html>
